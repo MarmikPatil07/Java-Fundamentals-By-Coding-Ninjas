@@ -3,7 +3,6 @@ public class Main {
 	
 	public static void main(String[] args) {
         
-        
         Scanner s  = new Scanner(System.in);
         float basic = s.nextInt();
         String allow = s.next();
