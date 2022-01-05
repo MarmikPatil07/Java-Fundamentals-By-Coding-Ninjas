@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Solution {
+    
+    public static void main(String[] args) {
+        
+        
+        Scanner s = new Scaneer(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        int n ;
+         
+        int i = 1;
+        while(i<=b){
+            System.out.println(n);
+            i = i+1;
+         int  n** = a;   // showing error as illegal start , whoever watching please feel free to correct 
+        }
+    }
+}
