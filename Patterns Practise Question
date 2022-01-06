@@ -1,0 +1,35 @@
+/*Patterns Practise Question :
+need to print 
+12344321
+123**321
+12****21 */
+
+//Solution begins(Half done until now)
+import java.util.Scanner;
+public class PractiseProblem_3 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		
+		int i = 1;
+		while(i<n) {
+			int j = 1;
+			while(j<=n-i+1) {
+				System.out.print(j);
+				j = j+1;
+			}
+			
+			int stars = 1;
+			while(stars<=n-j+1) {
+				System.out.print('*');
+				stars = stars+1;
+			}
+			System.out.println();
+			i = i+1;
+		}
+		
+
+	}
+
+}
