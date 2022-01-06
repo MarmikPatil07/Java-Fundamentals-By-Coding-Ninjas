@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class SumOfEvenAndOdd {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		String str = s.next();
+		
+		int even = 0;
+		int odd = 0;
+		
+		int i = 0;
+		while(i<str.length()) {
+			int a = (str.charAt(i));
+			if (a%2==0) {
+				even = even +a;
+			}else {
+				odd = odd+a;
+			}
+			
+		}
+	
+			System.out.println(even+ ' '+odd);
+			i = i+1;
+	}
+
+}
+
+
