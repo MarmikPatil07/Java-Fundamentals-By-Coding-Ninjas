@@ -12,6 +12,7 @@ public class PractiseProblem_3 {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		
+		/* Earlier One
 		int i = 1;
 		while(i<n) {
 			int j = 1;
@@ -27,7 +28,24 @@ public class PractiseProblem_3 {
 			}
 			System.out.println();
 			i = i+1;
-		}
+		}*/
+		// Newer one
+		int i,j;
+  		for(i=n;i>=1;i--){
+    		for(j=1;j<=n;j++){
+     			if(j<=i)
+					System.out.print(j);
+      			else
+        			System.out.print("*");
+    		}
+    		for(j=n;j>=1;j--){
+      			if(j<=i)
+        			System.out.print(j);
+      			else
+	  				System.out.print("*");
+    		} 
+    		System.out.println();
+  		}
 		
 
 	}
